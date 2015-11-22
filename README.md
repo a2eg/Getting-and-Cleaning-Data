@@ -1,11 +1,11 @@
 # Getting-and-Cleaning-Data
 
-This repository was created for the Coursera "Getting and Cleaning Data" course project" and
+This repository was created for the Coursera "Getting and Cleaning Data" course project and it
 stores the documentation (CodeBook.md), the tidy data set (tidy.txt) and R script (run_analysis.R).
 
 Wearable computing is one of the most exciting areas in all of data science these days.
-A lot of companies (Fitbit, Nike, and Jawbone Up etc.) are developing the advanced algorithms to attract new customers. 
-The data used in the project represents the accelerometers collected measurements from the Samsung smartphones. 
+A lot of companies (Fitbit, Nike, and Jawbone Up and others) are developing the advanced algorithms to attract new customers. 
+The data used in this project represents the accelerometers collected measurements from the Samsung smartphones. 
 
 A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
