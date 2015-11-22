@@ -49,7 +49,7 @@ On the new data set the column names are corrected.
 
     colnames(s1) <- colnames(x1)
 
-Finally, еhe output file is called tidy.txt, and uploaded to this repository.
+Finally, the output file tidy.txt uploaded to this repository.
 
     write.table(s1, file="tidy.txt",row.name=FALSE)
 
