@@ -4,7 +4,6 @@
 # and the test ('test/X_test.txt': Test set) sets to create one data set
 # 'X_train.txt' ln: 7352 col: 8976 (one number is 15 pos. + 1 space) 8976/16=561  
 # 'X_test.txt' ln: 2947 col: 8976 (one number is 15 pos. + 1 space) 8976/16=561 
-setwd("C:/Users/Acer/Documents")
 
 # Read & merge data x(original feature data set)
 x<-rbind(read.table("X_test.txt"),read.table("X_train.txt")) 
@@ -78,8 +77,8 @@ avg(fBodyBodyGyroJerkMag_mean), avg(fBodyBodyGyroJerkMag_std), avg(fBodyBodyGyro
 colnames(s1) <- colnames(x1)
 
 #Output tidy data set to txt file (tidy.txt)
-write.table(s1, file="tidy.txt",row.name=FALSE)
-#list.files("./")
+write.table(s1, file="./tidy.txt",row.name=FALSE)
+
 
 
 
