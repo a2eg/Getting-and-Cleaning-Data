@@ -33,12 +33,12 @@ and they are substituted in the data set.
     labels=c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")) 
 
 A new dataset with the average measures for each subject and activity type consist of 180 rows
-(30 subjects * 6 activities). 
+(30 subjects x 6 activities). 
 
     x2<-cbind(activity,x1)
     x1<-cbind("subj"=s$V1,x2)
 
-The averages of each activity for each subject were received using sqldf package
+The averages of each activity for each subject (1:30) were received using sqldf package
 
     library(sqldf)
     s1 <- sqldf("select subj, activity, avg(tBodyAcc_mean_X),
